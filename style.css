@@ -1,0 +1,49 @@
+* {
+    font-family: monospace;
+    color: blanchedalmond;
+    background-color: darkslategray;
+    margin: 50px;
+}
+
+a {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+.cabecera {
+    display: flex;
+    justify-content: space-around;
+}
+
+#title {
+    flex: 1;
+    font-weight: bold;
+    font-size: 30px;
+    transition: transform 0.3s;
+}
+
+#title:hover {
+    transform: translateY(10px) scale(1.1);
+
+}
+
+#sub1 {
+    font-size: 20px;
+    padding: 20px;
+    transition: transform 0.3s;
+    text-decoration: none;
+}
+
+#sub1:hover {
+    transform: scale(1.2);
+}
+
+#sub2 {
+    font-size: 20px;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+#sub2:hover {
+    transform: scale(1.2);
+}
