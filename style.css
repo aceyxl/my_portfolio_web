@@ -7,8 +7,6 @@
 
 a {
     text-decoration: none;
-    margin: 0px;
-    padding: 0px;
 }
 .cabecera {
     display: flex;
@@ -30,6 +28,7 @@ a {
 #sub1 {
     font-size: 20px;
     padding: 20px;
+    padding-right: 0px;
     transition: transform 0.3s;
     text-decoration: none;
 }
@@ -41,6 +40,7 @@ a {
 #sub2 {
     font-size: 20px;
     padding: 20px;
+    padding-right: 0px;
     transition: transform 0.3s;
 }
 
@@ -99,6 +99,14 @@ a {
     transform: scale(1.2);
 }
 
+#kcalc {
+    background-color: antiquewhite;
+    color: darkslategray;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 #p2 {
     transition: transform 0.3s;
 }
@@ -122,3 +130,67 @@ a {
 #p4:hover {
     transform: scale(1.2);
 }
+
+#kelvin_header {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin: 100px;
+}
+
+.CTB {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 50px;
+    border: 30px solid antiquewhite;
+}
+
+#kelvinrow {
+    display: flex;
+    font-size: 40px;
+}
+
+#kelvinInicial {
+    font-size: 40px;
+}
+
+#gelrow {
+    display: flex;
+    font-size: 40px;
+}
+
+#gelatina {
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#button_result {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+}
+
+#botonsitokelvin {
+    height: 70px;
+    width: 200px;
+    align-self: center;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    color: darkslategrey;
+    font-size: 20px;
+    font-weight: bolder;
+    transition: transform 0.3s;
+}
+
+#botonsitokelvin:hover {
+    transform: scale(1.3);
+}
+
+
+
