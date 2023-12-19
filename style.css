@@ -7,6 +7,11 @@
     margin: 50px;
 }
 
+@media (max-width: 768px) {
+    
+ }
+ 
+
 /* CSS cabecera y páginal principal */
 
 a {
