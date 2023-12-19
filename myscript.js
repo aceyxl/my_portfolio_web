@@ -7,6 +7,7 @@ function sumar() {
 
     kelvinFinal = kelvinFinal.toFixed(0)
 
-    document.getElementById("resultado").innerText = "Grados Kelvin: " + kelvinFinal
+    document.getElementById("resultado").innerText = kelvinFinal
+
 }
 
